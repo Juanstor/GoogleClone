@@ -1,0 +1,29 @@
+:root {
+    --white: #FFFFFF;
+    --black: color #000000
+}
+body {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    background-color: var(--white);
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border: 1px solid gray; /*color for now*/
+}
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+}
+a {
+    text-decoration: none;
+    color: var(--black);
+    padding: 0 0 0 15px;
+    display: inline-block;
+
+}
