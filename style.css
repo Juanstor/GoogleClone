@@ -9,12 +9,14 @@ body {
 }
 nav {
     display: flex;
-    justify-content: space-between;
-    padding: 5px;
+    justify-content: flex-end;
+    padding: 6px;
     border: 1px solid gray; /*color for now*/
 }
 ul {
     list-style-type: none;
+    display: flex;
+    align-items: center;
 }
 
 li {
@@ -25,5 +27,10 @@ a {
     color: var(--black);
     padding: 0 0 0 15px;
     display: inline-block;
+}
 
+.littleImages {
+    padding: 0 0 0 15px;
+    height: 32px;
+    width: 32px;
 }
