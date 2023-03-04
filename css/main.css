@@ -24,47 +24,60 @@ header nav {
     justify-content: flex-end;
 }
 
-header nav .nav--right-elements {
-    /* width: 200px; */
+header nav .nav-right-elements {
     height: auto;
     display: flex;
-    margin: 13px;
+    margin: 0px;
 
 
     list-style-type: none;
     align-items: center;
 }
-
+.pointer {
+    cursor: pointer;
+}
 li {
     display: inline-block;
 }
 a {
     text-decoration: none;
-    cursor: pointer;
     color: var(--black);
     padding: 0 7px;
     display: inline-block;
 }
 .profileImage {
-    padding: 0 7px;
-    height: 32px;
-    width: 32px;
+    padding: 8px;
+    height: 34px;
+    width: 34px;
     border-radius: 50%;
 }
 .pointsIcon {
-    padding: 0 7px;
+    padding: 8px 16px;
     height: 20px;
     width: 20px;
 }
 main {
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
     justify-content: center;
     align-items: center;
     padding: 20px;
-
 }
+main .section-Google-img { 
+    width: 272px;
+    height: 92px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+main .section-Google-img img{
+    width: 272px;
+    height: 92px;
+}
+main .section-2buttoms {
+    display: flex;
+}
+
+
 .searchBox {
     border: 1px solid rgb(179, 179, 179) ;
     border-radius: 16px;

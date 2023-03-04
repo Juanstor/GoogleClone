@@ -10,19 +10,19 @@
 <body>
     <header>
         <nav>
-            <ul class="nav--right-elements">
+            <ul class="nav-right-elements">
                 <li>
-                    <a href="/">Gmail</a> 
+                    <a href="/" class="pointer">Gmail</a> 
                 </li>
                 <li>
-                    <a href="/">Images</a> 
+                    <a href="/" class="pointer">Imágenes</a> 
                 </li>
                 <li>
-                    <img class="pointsIcon" src="./src/icon/Gray6Points.jpg" alt="Profiel Image">
+                    <img class="pointsIcon pointer" src="./src/icon/Gray6Points.jpg" alt="Profiel Image">
                     
                 </li>
                 <li>
-                    <img class="profileImage" src="./src/img/profilePhoto.png" alt="Profiel Image">
+                    <img class="profileImage pointer" src="./src/img/profilePhoto.png" alt="Profiel Image">
                 </li>
             </ul>          
         </nav>
@@ -30,11 +30,28 @@
     
     
     <main>
-        <img class="littleImages round" src="./src/img/googleLogo-Color.png" alt="Main google image">
-        <div class="searchBox">
-            <!-- <img src="" alt="searchIcon"> -->
-            <input type="text" aria-label="Buscar">
-        </div>
+        <section class="section-Google-img">
+            <img class="" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="main google image">
+        </section>
+
+        <section class="section-search-box">
+            <div class="searchBox">
+                <span>
+                    <img src="" alt="search icon">
+                </span>
+                <input type="text" aria-label="Buscar">
+                <a class="micro-icon" href=""></a>
+            </div>
+        </section >
+
+        <section class="section-2buttoms">
+            <div>
+                <button>Buscar con Google</button>
+            </div>
+            <div>
+                <button>Voy a tener suerte</button>
+            </div>
+        </section>
     </main>
 
 
