@@ -79,7 +79,7 @@ main .section-2buttoms {
 }
 
 
-.searchBox {
+.search-box {
     width: 560px;
     padding: 6px;
     margin: 20px;
@@ -95,7 +95,10 @@ main .section-search-box input {
     height: auto;
     border: none;
     outline: none;
-
+}
+main .search-box:hover {
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
 }
 footer {
     padding: 15px 30px;
