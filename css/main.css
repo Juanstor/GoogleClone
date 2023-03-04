@@ -1,7 +1,8 @@
 :root {
     --white: #FFFFFF;
     --black: #000000;
-    --gray: rgb(242, 242, 242);
+    --line: #dfe1e5;
+    --footer: #f2f2f2; 
 }
 body {
     margin: 0;
@@ -79,10 +80,10 @@ main .section-2buttoms {
 
 
 .searchBox {
-    border: 1px solid rgb(179, 179, 179) ;
-    border-radius: 16px;
+    border: 1px solid var(--line);
+    border-radius: 24px;
     padding: 6px;
-    width: 75vh;
+    width: 560px;
     margin: 20px;
 
     display: flex;
@@ -93,5 +94,5 @@ input {
 }
 footer {
     padding: 15px 30px;
-    background-color: var(--gray);
+    background-color: var(--footer);
 }
