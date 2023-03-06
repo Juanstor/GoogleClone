@@ -42,8 +42,8 @@ nav .nav-right-elements a {
 }
 .profileImage {
     padding: 8px;
-    height: 34px;
-    width: 34px;
+    height: 36px;
+    width: 36px;
     border-radius: 50%;
     cursor: pointer;
 }
@@ -53,7 +53,7 @@ main {
     justify-content: center;
     align-items: center;
     padding: 20px;
-    margin-top: 150px;
+    margin-top: 178px;
 }
 main .section-Google-img { 
     width: 272px;
@@ -68,7 +68,7 @@ main .section-Google-img img{
 .search-box {
     width: 560px;
     height: 32px;
-    padding: 6px 6px 6px 10px;
+    padding: 6px 8px 6px 14px;
     margin: 20px;
     border: 1px solid #dfe1e5;
     border-radius: 24px;
@@ -77,23 +77,24 @@ main .section-Google-img img{
     justify-content: space-between;
     align-items: center;
 }
+main .search-box span {
+    width: 20px;
+    height: 20px;
+    background-image: url(https://cdn.pixabay.com/photo/2017/01/13/01/22/magnifying-glass-1976105_1280.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
 main .section-search-box input {
     width: 450px;
     height: auto;
     border: none;
     outline: none;
+    font-size: 18px;
 }
 main .search-box:hover {
     box-shadow: 0 1px 6px 0 #20212447;
     border-color: #dfe1e500;
-}
-main .search-box span {
-    width: 14px;
-    height: 14px;
-    background-image: url(https://cdn.pixabay.com/photo/2017/01/13/01/22/magnifying-glass-1976105_1280.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
 }
 main .search-box a {
     width: 24px;
