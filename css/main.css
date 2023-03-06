@@ -7,6 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100%;
+    width: 100%;
 }
 header {
     width: auto;
@@ -27,28 +28,24 @@ header nav .nav-right-elements {
     list-style-type: none;
     align-items: center;
 }
-.pointer {
-    cursor: pointer;
-}
-li {
-    display: inline-block;
-}
-a {
+nav .nav-right-elements a {
     text-decoration: none;
     color: black;
     padding: 0 7px;
     display: inline-block;
+}
+.pointsIcon {
+    cursor: pointer;
+    padding: 8px 16px;
+    height: 20px;
+    width: 20px;
 }
 .profileImage {
     padding: 8px;
     height: 34px;
     width: 34px;
     border-radius: 50%;
-}
-.pointsIcon {
-    padding: 8px 16px;
-    height: 20px;
-    width: 20px;
+    cursor: pointer;
 }
 main {
     display: flex;
@@ -56,19 +53,18 @@ main {
     justify-content: center;
     align-items: center;
     padding: 20px;
+    margin-top: 150px;
 }
 main .section-Google-img { 
     width: 272px;
     height: 92px;
     margin: 0 auto;
-    margin-bottom: 35px;
+    margin-bottom: 12px;
 }
 main .section-Google-img img{
     width: 272px;
     height: 92px;
 }
-
-
 .search-box {
     width: 560px;
     padding: 6px 6px 6px 10px;
@@ -93,13 +89,10 @@ main .search-box:hover {
 main .search-box span {
     width: 14px;
     height: 14px;
-    
     background-image: url(https://cdn.pixabay.com/photo/2017/01/13/01/22/magnifying-glass-1976105_1280.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    
-    
 }
 main .search-box a {
     width: 18px;
@@ -139,6 +132,30 @@ main .section-2buttoms button:hover {
 
 
 footer {
-    padding: 15px 30px;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    border-top: 1px solid #e4e4e4;
     background-color: #f2f2f2;
+}
+footer ul {
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;    
+}
+footer ul li a {
+    margin: 10px;
+    color: #5f6368;
+    text-decoration: none;
+}
+footer .footer-left {
+    justify-content: left;
+}
+footer .footer-right {
+    justify-content: right;
 }
