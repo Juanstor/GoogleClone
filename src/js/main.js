@@ -1,15 +1,15 @@
 let linkProfile = document.querySelector('.profileImage');
-let linkSuerte = document.getElementById('secondButtom');
-let searchText = document.getElementById("searchTerm").value;
+let linkBoton2 = document.getElementById('secondButtom');
 
 linkProfile.addEventListener('click', function() {
     window.location.href = 'https://accounts.google.com/';
 });
 
-linkSuerte.addEventListener('click', function() {
+linkBoton2.addEventListener('click', function() {
     window.location.href = 'https://github.com/Juanstor';
 });
 
 function searchGoogle() {
-    window.location.href = "https://www.google.com/search?q=" + searchText;
+    let searchText = document.getElementById('searchTerm').value;
+    window.location.href = 'https://www.google.com/search?q=' + searchText;
 }
